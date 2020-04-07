@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="app-header">
+        <div class="app-name">
+            <div class="connectivity-status"></div>
+            <div class="name">theArkein</div>
+        </div>
+        <hr>
+        <div class="nav-menu">
+            <li> <a href="#" data-toggle='myLists'>myLists</a></li><span> | </span>
+            <li> <a href="#" data-toggle='myNotes'>myNotes</a></li><span> | </span>
+            <li> <a href="#" data-toggle='myDay'>myDay</a></li><span> | </span>
+            <li> <a href="#" data-toggle='myJournal'>myJournal</a></li>
+        </div>
+    </div>
+
+    <div class="app-body">
+
+        <div class="myLists body-component show">
+            <div class="lists">
+                <div class="list">
+                    <div class="title">myLists</div>
+                    <div class="note-body">Note Body</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="myNotes body-component">
+            <div class="notes">
+                <div class="note">
+                    <div class="title">myNotes</div>
+                    <div class="note-body">Note Body</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="myDay body-component">
+            <div class="lists">
+                <div class="list">
+                    <div class="title">myDay</div>
+                    <div class="note-body">Note Body</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="myJournal body-component">
+            <div class="lists">
+                <div class="list">
+                    <div class="title">myJournal</div>
+                    <div class="note-body">Note Body</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
